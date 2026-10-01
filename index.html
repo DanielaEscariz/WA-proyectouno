@@ -11,6 +11,37 @@
 
 
     <body>
-        
+<!-- MENÚ DE NAVEGACIÓN -->
+    <nav class="nav">
+        <div class="nav__inner">
+            <!-- LOGO SÓNAR -->
+            <a href="#inicio" class="nav__logo">
+                <img src="media/img/home/nav/logo_sonar.webp" alt="Sónar"> 
+            </a>
+
+            <ul class="nav__links" id="menu">
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#datos">LINEUP</a></li>
+                <li><a href="#galeria">EXPERIENCIA</a></li>
+                <li><a href="#sobre">TICKETS</a></li>
+            </ul>
+
+            <div class="nav__actions">
+                <!-- BOTÓN MODO CLARO/OSCURO -->
+                <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Cambiar tema">
+                    <img src="media/img/home/nav/icono_modoclaro.webp" alt="Modo Claro" class="theme-toggle__icon theme-toggle__icon--sun">
+                    <img src="media/img/home/nav/icono_modooscuro.webp" alt="Modo Oscuro" class="theme-toggle__icon theme-toggle__icon--moon">
+                </button>                
+
+
+                <!-- Botón hamburguesa (móvil/ tablet) -->
+                <button class="menu-toggle" type="button" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>     
     </body>
 </html>
