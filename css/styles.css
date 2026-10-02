@@ -1177,7 +1177,7 @@
 /* TABLET */
 @media (max-width: 900px) {
     .hero__container {
-        height: 100%vh;
+        height: 100vh;
         margin-top: 1rem;
     }
 
