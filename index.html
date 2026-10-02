@@ -25,7 +25,7 @@
                 <li><a href="#inicio">INICIO</a></li>
                 <li><a href="#lineup">LINEUP</a></li>
                 <li><a href="#galeria">GALERÍA</a></li>
-                <li><a href="#sobre">TICKETS</a></li>
+                <li><a href="#tickets">TICKETS</a></li>
             </ul>
 
             <div class="nav__actions">
@@ -57,6 +57,49 @@
             </div>
         </div>
     </section>
+<!-- MARQUEE CON CSS: -->
+    <div class="marquee">
+        <ul class="marquee__content">
+            <li>ALBA F</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>DOM DOLLA</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>AFRI K</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>DJ GIOLA</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>KTTAMA</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>AMELIE LENS</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>ICEMORPH</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>S. LANDRY</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>ARTHI</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+        </ul>
+        <ul class="marquee__content" aria-hidden="true">
+            <li>ALBA F</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>DOM DOLLA</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>AFRI K</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>DJ GIOLA</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>KTTAMA</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>AMELIE LENS</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>ICEMORPH</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>S. LANDRY</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>ARTHI</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+        </ul>
+    </div>
 
 
 
@@ -206,7 +249,7 @@
                     <img src="media/img/home/galeria/horizontaldos.webp" alt="Sónar luces verdes" class="gallery__img">
                 </div>
                 
-                <!-- FOTO CUADRADA SEIS -->
+                <!-- FOTO CUADRADA SEIS (mejor compo de colores) -->
                 <div class="gallery__item">
                     <img src="media/img/home/galeria/cuadradaseis.webp" alt="Sónar DJ cortina roja" class="gallery__img">
                 </div>
@@ -216,7 +259,7 @@
                     <img src="media/img/home/galeria/cuadradacinco.webp" alt="Sónar DJ luces verdes" class="gallery__img">
                 </div>
                 
-                <!-- FOTO CUADRADA CUATRO -->
+                <!-- FOTO CUADRADA CUATRO (mejor compo de colores) -->
                 <div class="gallery__item">
                     <img src="media/img/home/galeria/cuadradacuatro.webp" alt="Sónar DJ mujer" class="gallery__img">
                 </div>
@@ -227,6 +270,226 @@
 
 
 
+
+<!-- SECCIÓN TICKETS -->
+    <section class="tickets section" id="tickets">
+        <div class="container">
+            <h2 class="tickets__title">TICKETS</h2>
+
+    <!-- TAJETAS CON LA INFO: -->
+        <div class="tickets__cards">
+                <!-- SONAR PASS AZUL -->
+                <label class="ticket-card ticket-card--blue" for="radio-pass">
+                    <h3 class="ticket-card__title">SONAR PASS</h3>
+                    <div class="ticket-card__info">
+                        <p class="ticket-card__desc">Abono para acceder a Sónar:<br>viernes - sábado - domingo</p>
+                        <div class="ticket-card__option">
+                            <span class="ticket-card__checkbox"></span>
+                            <span class="ticket-card__name">SonarPass</span>
+                            <span class="ticket-card__price">219€</span>
+                        </div>
+                    </div>
+                    <span class="ticket-card__btn">COMPRAR TICKET</span>
+                    <span class="ticket-card__note">PVP, gastos e impuestos incluidos*</span>
+                </label>
+
+                <!-- SONAR PASS VIP VERDE -->
+                <label class="ticket-card ticket-card--green" for="radio-vip">
+                    <h3 class="ticket-card__title">SONAR PASS VIP</h3>
+                    <div class="ticket-card__info">
+                        <p class="ticket-card__desc">Abono VIP para acceder a Sónar:<br>viernes - sábado - domingo</p>
+                        <div class="ticket-card__option">
+                            <span class="ticket-card__checkbox"></span>
+                            <span class="ticket-card__name">SonarPass VIP</span>
+                            <span class="ticket-card__price">319€</span>
+                        </div>
+                    </div>
+                    <span class="ticket-card__btn">COMPRAR TICKET</span>
+                    <span class="ticket-card__note">PVP, gastos e impuestos incluidos*</span>
+                </label>
+                
+                <!-- TICKET DÍA ROJA -->
+                <label class="ticket-card ticket-card--red" for="radio-dia">
+                    <h3 class="ticket-card__title">TICKET DÍA</h3>
+                    <div class="ticket-card__info">
+                        <p class="ticket-card__desc">Ticket para acceder a Sónar:<br>el día que tú prefieras.</p>
+                        <div class="ticket-card__option">
+                            <span class="ticket-card__checkbox"></span>
+                            <span class="ticket-card__name">SonarPass Día</span>
+                            <span class="ticket-card__price">119€</span>
+                        </div>
+                    </div>
+                    <span class="ticket-card__btn">COMPRAR TICKET</span>
+                    <span class="ticket-card__note">PVP, gastos e impuestos incluidos*</span>
+                </label>
+        </div>
+            
+
+            
+    <!-- FORMULARIO -->
+        <form class="tickets__form" id="form-tickets" onsubmit="return comprar()">
+            <div class="form__group">
+                <input type="text" id="nombre" placeholder="NOMBRE COMPLETO..." required>
+            </div>
+
+            <div class="form__group">
+                <input type="email" id="correo" placeholder="CORREO ELECTRÓNICO..." required>
+            </div>
+
+            <div class="form__group form__group--radio">
+                <span class="form__label">SELECCIONA TICKET:</span>
+                <div class="form__radio-options">
+                    <label class="form__radio">
+                        <input type="radio" name="ticket_type" id="radio-pass" value="pass" checked onchange="costeTotal()">
+                        <span>SONAR PASS</span>
+                    </label>
+                    <label class="form__radio">
+                        <input type="radio" name="ticket_type" id="radio-vip" value="vip" onchange="costeTotal()">
+                        <span>SONAR PASS VIP</span>
+                    </label>
+                    <label class="form__radio">
+                        <input type="radio" name="ticket_type" id="radio-dia" value="dia" onchange="costeTotal()">
+                        <span>TICKET DÍA</span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- UNIDADES -->
+            <div class="form__group form__group--counter">
+                <div class="counter__wrapper">
+                    <span class="form__label">UNIDADES</span>
+                    <div class="counter">
+                        <button type="button" class="counter__btn" onclick="restarUnidad()">-</button>
+                        <span class="counter__value" id="numero">1</span>
+                        <button type="button" class="counter__btn" onclick="sumarUnidad()">+</button>
+                    </div>
+                </div>
+
+                <div class="form__total">
+                    <span class="form__total-label">TOTAL=</span>
+                    <span class="form__total-amount" id="coste">219 €</span>
+                </div>
+            </div>
+
+            <div class="form__terms">
+                <label class="form__checkbox">
+                    <input type="checkbox" id="privacidad" required>
+                    <span>ACEPTO TÉRMINOS Y CONDICIONES</span>
+                </label>
+            </div>
+
+            <input type="submit" value="¡COMPRAR!" class="form__submit">
+        </form>
+
+            <div class="tickets__end-text">
+                <span>FESTIVAL 2027</span>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- MARQUEE CON CSS: -->
+    <div class="marquee">
+        <ul class="marquee__content">
+            <li>ALBA F</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>DOM DOLLA</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>AFRI K</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>DJ GIOLA</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>KTTAMA</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>AMELIE LENS</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>ICEMORPH</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>S. LANDRY</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>ARTHI</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+        </ul>
+        <ul class="marquee__content" aria-hidden="true">
+            <li>ALBA F</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>DOM DOLLA</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>AFRI K</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>DJ GIOLA</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>KTTAMA</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>AMELIE LENS</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>ICEMORPH</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>S. LANDRY</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+            <li>ARTHI</li>
+            <li class="marquee__sep" aria-hidden="true">✦</li>
+        </ul>
+    </div>
+
+
+
+
+<!-- VENTANA MODA: COMPRAR ENTRADAS -->
+    <div class="modal" id="modal">
+        <div class="modal__content">
+            <h3 class="modal__title">LA COMPRA SE HA REALIZADO CORRECTAMENTE</h3>
+            
+            <div class="modal__details">
+                <div class="modal__row">
+                    <span class="modal__label">NOMBRE:</span>
+                    <span class="modal__value" id="nom"></span>
+                </div>
+                <div class="modal__row">
+                    <span class="modal__label">CORREO ELECTRÓNICO:</span>
+                    <span class="modal__value" id="corr"></span>
+                </div>
+                <div class="modal__row">
+                    <span class="modal__label">TICKET:</span>
+                    <span class="modal__value" id="ex"></span>
+                </div>
+                <div class="modal__row">
+                    <span class="modal__label">NÚMERO DE ENTRADAS:</span>
+                    <span class="modal__value" id="num"></span>
+                </div>
+                <div class="modal__row">
+                    <span class="modal__label">COSTE TOTAL:</span>
+                    <span class="modal__value" id="ct"></span>
+                </div>
+            </div>
+
+            <button type="button" class="modal__btn" onclick="cerrarVentana()">ACEPTAR</button>
+        </div>
+    </div>
+
+
+        <!-- AQUÍ ES DONDE CARGAMOS EL JS -->
+        <script src="js/main.js"></script>
+        
+        <!-- AQUÍ CARGAMOS EL JS DE TEMA CLARO/OSCURO -->
+        <script src="js/changeTheme.js"></script>
 
     </body>
 </html>

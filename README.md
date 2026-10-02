@@ -6,6 +6,9 @@ https://css-tricks.com/complete-guide-css-grid-layout/
 
 https://css-tricks.com/a-complete-guide-to-css-media-queries/
 
+https://ryanmulligan.dev/blog/css-marquee/
+
 
 Web de referencia hecha por Adrián Cano  "COOL_CATS_WEB_REFERENCIA"
 
+Web del año pasado (trabajo grupal)
