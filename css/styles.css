@@ -1201,6 +1201,7 @@
     .lineup__card--wide {
         grid-column: span 2;
     }   
+    
 
     .gallery__grid {
         grid-template-columns: repeat(2, 1fr);
@@ -1396,6 +1397,11 @@
     .lineup__info {
         padding: 0.5rem 1rem 0;
     }
+
+    .gallery {
+        padding: 2.5rem 0;
+    }
+
     .gallery__grid {
         grid-template-columns: 1fr;
         gap: 1.2rem;
@@ -1408,9 +1414,11 @@
     }
 
     .gallery__item {
+        width: 100vw;
         aspect-ratio: 16 / 9; 
         height: auto;
         min-height: initial;
+        margin-left: calc(-50vw + 50%); 
     }
 
 
