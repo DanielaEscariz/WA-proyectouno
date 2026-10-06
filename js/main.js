@@ -126,18 +126,38 @@
 
 
 // FORMULARIO COMPRA DE ENTRADAS:
+var MAXIMO_POR_TIPO = 10;       // máximo de entradas de cada tipo
 let cantidad = 1;
 
+// BOTONES
+function actualizarEstadoBotones() {
+    var botones = document.querySelectorAll('.counter__btn');
+    var btnMenos = botones[0]; // Primer botón: (-)
+    var btnMas = botones[1];   // Segundo botón: (+)
+
+    if (btnMenos) {
+        btnMenos.disabled = (cantidad <= 1);
+    }
+    if (btnMas) {
+        btnMas.disabled = (cantidad >= MAXIMO_POR_TIPO);
+    }
+}
+
+
 function sumarUnidad() {
-    cantidad++;
-    document.getElementById("numero").innerHTML = cantidad;
-    costeTotal();
+    if (cantidad < MAXIMO_POR_TIPO) {
+        cantidad++;
+        document.getElementById("numero").innerHTML = cantidad;
+        actualizarEstadoBotones();
+        costeTotal();
+    }
 }
 
 function restarUnidad() {
     if (cantidad > 1) {
         cantidad--;
         document.getElementById("numero").innerHTML = cantidad;
+        actualizarEstadoBotones();
         costeTotal();
     }
 }
@@ -181,3 +201,7 @@ function comprar() {
 function cerrarVentana() {
     document.getElementById("modal").style.display = "none";
 }
+
+
+// Estado inicial
+actualizarEstadoBotones();

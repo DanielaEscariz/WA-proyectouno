@@ -3,6 +3,7 @@
 
     var STORAGE_KEY = 'sonar-theme';
     var root = document.documentElement; // Etiqueta <html>
+    
 
     // 1. Obtener tema guardado en localStorage
     function getSavedTheme() {
